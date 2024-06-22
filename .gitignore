@@ -1,0 +1,12 @@
+"# Virtual environment" 
+"/stock-env/" 
+"# Python files" 
+"*.pyc" 
+"__pycache__/" 
+"# Jupyter Notebook checkpoints" 
+".ipynb_checkpoints/" 
+"# Database" 
+"*.sqlite3" 
+"# Other" 
+".DS_Store" 
+
