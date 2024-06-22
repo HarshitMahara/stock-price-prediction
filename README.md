@@ -63,7 +63,7 @@ This project aims to build a web application that predicts the stock prices of v
 ### Step 1: Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/stock-price-prediction.git
+https://github.com/HarshitMahara/stock-price-prediction.git
 cd stock-price-prediction
 ```
 
