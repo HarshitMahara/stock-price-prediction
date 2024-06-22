@@ -13,7 +13,6 @@ This project aims to build a web application that predicts the stock prices of v
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -125,15 +124,65 @@ MONGO_URI=your_mongo_uri
 
 ### Step 7: Run the Application
 
-- Start the Flask backend:
+#### 1. Start the Flask backend:
+  
   ```sh
   cd backend
   flask run
 ```
--Start the React frontend:
+
+#### 2. Start the React frontend:
+
  ``` sh
  cd frontend
  npm start
 ```
 
 ## Usage
+
+- Open your browser and navigate to http://localhost:3000 to access the web application.
+- Select a stock to view its current price and future price predictions.
+- Explore the interactive dashboard for visualizations of stock trends and sentiment analysis.
+
+## Project Structure
+
+``` sh
+stock-price-prediction/
+├── backend/
+│   ├── app.py
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── requirements.txt
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   ├── package-lock.json
+├── data/
+├── notebooks/
+├── .gitignore
+├── .env
+├── README.md
+```
+
+## Contributing
+Contributions are welcome! Please fork this repository and submit pull requests for any features, improvements, or bug fixes.
+
+### Steps to Contribute
+
+#### 1. Fork the repository.
+#### 2. Create a new branch for your feature or bug fix:
+``` sh
+git checkout -b feature-name
+```
+#### 3. Commit your changes:
+``` sh
+git commit -m "Add some feature"
+```
+#### 4. Push to the branch:
+``` sh
+git push origin feature-name
+```
+#### 5. Open a pull request on GitHub.
+
